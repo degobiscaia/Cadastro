@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+#título {
+    font-family: "Poppins", sans-serif;
+    color: ;
+}
+
+fieldset {
+    border: 0;
+}
+
+body {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    background-repeat: no-repeat;
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+input, textare, button {
+    font-family: "Poppins", sans-serif;
+    font-size:1em;
+    color: ;
+    border-radius: 5px;
+
+}
+
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: ;
+    display: block;
+}
+
+main.container {
+    background: white;
+    max-width: 350px;
+    min-height: 40vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+main h1 {
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+    position: relative;
+}
+
+main h1::before {
+    content: '';
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    border-radius: 8px;
+    background: blue;
+}
+
+.botao{
+    margin-top: 0.6rem;
+    padding: 0.4rem;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    position: center;
+    width: 100%;
+    height: 40px;
+}
+
+.botao:hover {
+    background: #ffb199;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #ffb199;
